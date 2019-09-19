@@ -13,6 +13,9 @@ public class User {
 
     public String getName() { return name; }
 
+    public User() {
+    }
+
     @Override
     public String toString() {
         return "User{" +
